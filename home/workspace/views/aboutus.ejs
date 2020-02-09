@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ABOUT US  </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+		    	.Mymenu
+		    	{
+		    		margin-right: 20px; 
+		    	}
+		    	.loginn
+		    	{
+		    	      margin-left: 15px;
+                      padding-left: 10px;
+		    	}
+		       .firstpic
+{
+	    width: 900px;
+    height: 400px;
+    background-image: url('https://preview.c9users.io/hrkhan/mab_management/Uber/img/uber20.jpg?_c9_id=livepreview3&_c9_host=https://ide.c9.io');
+    margin: 20px auto;
+}
+		    </style>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+     	    <nav class="navbar  navbar-expand-sm navbar-dark bg-dark "> 
+     	    	<div class="container ">
+              <a href="/" class="navbar-brand text-warning font-weight-bold" =>FirstCab</a>
+               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mymenu"  >
+              <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mymenu">
+              <ul class="navbar-nav"> 
+               <li class="nav-item "> <a href="/" class="nav-link">Home</a></li>
+                <% if(email=='') {%>
+               <li class="nav-item "> <a href="/both" class="nav-link">Drive</a></li>
+                <% } %>
+               <li class="nav-item "> <a href="/bookcab" class="nav-link">Ride</a></li>
+               <li class="nav-item active"> <a href="/about" class="nav-link">AboutUs</a></li>
+                  </ul>
+                   </div> 
+     	   
+     	    
+     	    <ul class="nav navbar-nav navbar-right">
+      
+        <% if(email ){ %>
+                <li class="loginn" ><a  class="loginn text-warning font-weight-bold" href="/">Welcome  <%=username %></a>  </li>
+        <% } %>
+        <% if(email){ %>
+                <li><a href="/login" class="loginn"> Logout <i class="fas fa-sign-in-alt"></i></a></li> 
+        <% } %>
+        
+        <% if(email=='') {%>
+                <li><a href="/login" class="loginn">Login <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="/registeruser" class="loginn"> SignUP <i class="fas fa-sign-in-alt"></i></a></li>
+        <% } %>
+      </ul>
+     </nav>    
+     	    
+     	    
+     	    </div>
+		<section class="container ourservices text-center">
+
+			<h1> About Us </h1>
+			<p style="font-size: 24px"> We ignite opportunity by setting the world in motion </p>
+		</section>
+	<div class="firstpic">
+
+	</div>
+
+    <p style="text-align: center; margin-top: 50px ; margin-left: 200px; margin-right: 200px;
+     font-size: 28px">Good things happen when people can move, whether across town or towards their dreams. 
+     Opportunities appear, open up, become reality. What started as a way to tap a button to get a ride has led to 
+     billions of moments of human connection as people around the world go all kinds of places in all kinds of ways
+      with the help of our technology. 
+    </p>
+    
+    <hr class="featurette-divider">
+
+   <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading" style=" margin-top: 50px ;margin-left: 100px"> Rides and beyond 
+        	<span class="text-muted"></span></h2>
+        <p class="lead" style=" margin-top: 30px ;margin-left: 30px">In addition to helping you get from point A to point B,
+         we're working to bring the future closer with self-driving technology and urban air transport, helping people order
+        food quickly and affordably, removing barriers to healthcare, creating new freight-booking solutions, and helping
+         companies provide a seamless employee travel experience.</p>
+      </div>
+      <div class="col-md-5">
+      	<img src="https://preview.c9users.io/hrkhan/mab_management/Uber/img/about.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io"  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+      	style="margin-top: 20px" width="300" height="300"">
+        
+      </div>
+    </div>
+    <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4"> Meet the Team</h1>
+                    </div>
+                    <hr>
+            </div>
+    
+           </div>
+    
+          
+    
+          <div class="container-fluid padding">
+              <div class="row padding">
+                  <div class="col-md-4">
+                      <div class="card">
+                          <img class="card-img-top" src="https://preview.c9users.io/hrkhan/mab_management/Uber/img/amir.jpeg?_c9_id=livepreview3&_c9_host=https://ide.c9.io">
+                          <div class="card-body">
+                              <h4 class="card-title"> Amir Hussain Mohibi</h4>
+                              <p class="card-text"> Amir is a web developer
+                              with almost 1 Month of experience. </p>\
+                              <a href="#" class="btn-btn-outline-secondery"> See Profile</a>
+                          </div>
+                      </div>
+                   </div>
+
+                   <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://preview.c9users.io/hrkhan/mab_management/Uber/img/hrkhan.jpeg?_c9_id=livepreview3&_c9_host=https://ide.c9.io">
+                            <div class="card-body">
+                                <h4 class="card-title"> Habiburrahman Khan</h4>
+                                <p class="card-text">  Habiburrahman is a web developer
+                                with almost 1 Month of experience. </p>\
+                                <a href="#" class="btn-btn-outline-secondery"> See Profile</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                            <div class="card">
+                                 <img class="card-img-top" src="https://preview.c9users.io/hrkhan/mab_management/Uber/img/saman.jpeg?_c9_id=livepreview3&_c9_host=https://ide.c9.io">
+                                <div class="card-body">
+                                    <h4 class="card-title"> Saman Rashid </h4>
+                                    <p class="card-text"> Saman is a web developer
+                                    with almost 1 Month of experience. </p>\
+                                    <a href="#" class="btn-btn-outline-secondery"> See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+              </div>
+          </div>
+</body>
+</html> 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        
+        
+        
+        
+        <title>Registration</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+       <div class="container" style="padding-right:20px; display:inline-block;">
+       
+<div style="max-width:50%;margin:30px auto;">
+<div class="container1" style="background-color:#F5E7E7; padding-bottom:40px ; border-radius: 5px ;">
+    <div style="width:35%; margin:30px auto; margin-bottom:30px; padding-top:50px ; padding:bottom:40px;border:none">
+    <div class="row">
+    <h1 style="text-align: center;">Driver Registeration</h1>
+    <br>
+<form method="POST" action="/driverregister">
+    <div class=form-group>
+    <input class="form-control" type="text" name="Name" placeholder="name" required>
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="email" id="email23" name="Email" placeholder="email" required>
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="password" name="Password" placeholder="password" minlength="5">
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="text" name="Number" placeholder="Mobile No"  minlength="10">
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="text" name="Licenseno" placeholder="License No"  minlength="11">
+    </div>
+     <div class=form-group>
+    <input class="form-control" type="text" name="Bankaccount" placeholder="Bank account No"  minlength="12">
+    </div>
+    <div class="form-group">
+        <h5>Cab Type </h5>
+         <select name ="Cartype">
+                        <option value="Sedan">Sedan</option>
+                        <option value="Mini">Mini</option>
+                        <option value="Micro">Micro</option>
+         </select>
+    </div>
+    <div class=form-group>
+    <input class="form-control" type="text" name="Carno" placeholder="Car No"  minlength="10">
+    </div>
+    
+    <h5>Existing user? <a href="#">login here</a></h5>
+    <br>
+    <button type="submit" style="background-color:#535b63;" class="btn btn-primary btn-block btn-md">Submit</button>
+</form>
+</div>
+</div>
+</div>
+</body>

@@ -1,0 +1,12 @@
+{
+  "name": "mab_management",
+  "id": "6859792",
+  "description": "Work Hard",
+  "gitUrl": "",
+  "workspaceType": "nodejs",
+  "dockerBaseImage": "cloud9/ws-nodejs:2017-08-31T12-15-07Z",
+  "owner": {
+    "name": "hrkhan",
+    "id": "4566577"
+  }
+}

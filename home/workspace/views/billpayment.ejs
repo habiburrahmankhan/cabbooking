@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Payment </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+       <div class="container" style="padding-right:20px; display:inline-block;">
+       
+<div style="max-width:50%;margin:30px auto;">
+<div class="container1" style="background-color:#F5E7E7; padding-bottom:40px ; border-radius: 5px ;">
+    <div style="width:35%; margin:30px auto; margin-bottom:30px; padding-top:50px ; padding:bottom:40px;border:none">
+    <div class="row">
+    <h1 style="text-align: center;">Bill Payment </h1>
+    <br>
+<form method="POST" action="/billpay">
+    <div class=form-group>
+         <p class="loginn" >bill id:-  <%=username %>  </p>
+     <% if(email ){ %>
+                <p class="loginn" >Customer Name  <%=username %>  </p>
+        <% } %>
+          <p class="loginn" >Driver Name  <%=username %>  </p>
+          <p class="loginn" >mobile No   <%=username %>  </p>
+          <p class="loginn" >bill Amount   <%=username %>  </p>
+          </div>
+        <div class="form-group">
+        <h5>Cab Type </h5>
+         <select name ="Paymenttype">
+                        <option value="Cash">Cash</option>
+                        <option value="Card">Card</option>
+         </select>
+         </div>
+          <button type="submit" style="background-color:#535b63;" class="btn btn-primary btn-block btn-md">Submit</button>
+</form>
+</div>
+           <script src="/socket.io/socket.io.js"></script>
+         <script>
+             
+         </script>
+
+
+</body>
+
+</html>
